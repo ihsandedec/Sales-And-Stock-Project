@@ -1,6 +1,6 @@
 package tr.com.ih.types;
 
-public class Powers {
+public class PowersContract {
 
 	private int id;
 	private String name;
