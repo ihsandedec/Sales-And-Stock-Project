@@ -13,12 +13,12 @@ public class PowersContract {
 		this.id = id;
 	}
 
-	public String getAdi() {
+	public String getName() {
 		return name;
 	}
 
-	public void setAdi(String adi) {
-		this.name = adi;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	@Override
