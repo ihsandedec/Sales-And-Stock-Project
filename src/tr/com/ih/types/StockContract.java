@@ -18,11 +18,11 @@ public class StockContract {
 		this.id = id;
 	}
 
-	public int getPersonelId() {
+	public int getEmployeeId() {
 		return employeeId;
 	}
 
-	public void setPersonelId(int employeeId) {
+	public void setEmployeeId(int employeeId) {
 		this.employeeId = employeeId;
 	}
 
