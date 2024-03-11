@@ -13,23 +13,23 @@ public class AccountsContract {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getSifre() {
+	public String getPassword() {
 		return password;
 	}
-	public void setSifre(String sifre) {
-		this.password = sifre;
+	public void setPassword(String password) {
+		this.password = password;
 	}
-	public int getYetkiId() {
+	public int getPowerId() {
 		return powerId;
 	}
-	public void setYetkiId(int yetkiId) {
-		this.powerId = yetkiId;
+	public void setPowerId(int powerId) {
+		this.powerId = powerId;
 	}
-	public int getPersonelId() {
+	public int getEmployeeId() {
 		return employeeId;
 	}
-	public void setPersonelId(int personelId) {
-		this.employeeId = personelId;
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
 	}
 	
 	@Override
