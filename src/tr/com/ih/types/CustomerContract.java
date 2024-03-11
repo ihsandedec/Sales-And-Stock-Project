@@ -6,7 +6,7 @@ public class CustomerContract {
 	private String nameLastName;
 	private String phone;
 	private String address;
-	private String cityId;
+	private int cityId;
 
 	public int getId() {
 		return id;
@@ -16,36 +16,36 @@ public class CustomerContract {
 		this.id = id;
 	}
 
-	public String getAdSoyad() {
+	public String getNameLastName() {
 		return nameLastName;
 	}
 
-	public void setAdSoyad(String adSoyad) {
-		this.nameLastName = adSoyad;
+	public void setNameLastName(String nameLastName) {
+		this.nameLastName = nameLastName;
 	}
 
-	public String getTelefon() {
+	public String getPhone() {
 		return phone;
 	}
 
-	public void setTelefon(String telefon) {
-		this.phone = telefon;
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 
-	public String getAdres() {
+	public String getAddress() {
 		return address;
 	}
 
-	public void setAdres(String adres) {
-		this.address = adres;
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
-	public String getSehirId() {
+	public int getCityId() {
 		return cityId;
 	}
 
-	public void setSehirId(String sehirId) {
-		this.cityId = sehirId;
+	public void setCityId(int cityId) {
+		this.cityId = cityId;
 	}
 
 	@Override
