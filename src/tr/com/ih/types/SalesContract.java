@@ -10,11 +10,11 @@ public class SalesContract {
 	private int productId;
 	private Date history;
 
-	public int getPersonelId() {
+	public int getEmployeeId() {
 		return employeeId;
 	}
 
-	public void setPersonelId(int employeeId) {
+	public void setEmployeeId(int employeeId) {
 		this.employeeId = employeeId;
 	}
 
