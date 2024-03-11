@@ -15,12 +15,12 @@ public class EmployeeContract {
 		this.id = id;
 	}
 
-	public String getAdsoyad() {
+	public String getNameLastName() {
 		return nameLastName;
 	}
 
-	public void setAdsoyad(String adsoyad) {
-		this.nameLastName = adsoyad;
+	public void setNameLastName(String nameLastName) {
+		this.nameLastName = nameLastName;
 	}
 
 	public String getEmail() {
