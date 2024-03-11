@@ -10,12 +10,12 @@ public class ProductsContract {
 	private Date date;
 	private float price;
 
-	public float getFiyat() {
+	public float getPrice() {
 		return price;
 	}
 
-	public void setFiyat(float fiyat) {
-		this.price = fiyat;
+	public void setPrice(float price) {
+		this.price = price;
 	}
 
 	public int getId() {
@@ -26,20 +26,20 @@ public class ProductsContract {
 		this.id = id;
 	}
 
-	public String getAdi() {
+	public String getName() {
 		return name;
 	}
 
-	public void setAdi(String adi) {
-		this.name = adi;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public int getKatagoriId() {
+	public int getCategoryId() {
 		return categoryId;
 	}
 
-	public void setKatagoriId(int katagoriId) {
-		this.categoryId = katagoriId;
+	public void setCategoryId(int categoryId) {
+		this.categoryId = categoryId;
 	}
 
 	public Date getDate() {
